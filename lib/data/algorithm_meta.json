@@ -1,0 +1,190 @@
+{
+    "meta": [
+        {
+            "algorithmId": "1000",
+            "algorithm": "aes",
+            "keySize": [
+                "128",
+                "192",
+                "256"
+            ],
+            "operationMode": [
+                "ecb",
+                "cbc",
+                "cfb",
+                "ofb"
+            ],
+            "initialVectorType": [
+                "zero",
+                "fixed",
+                "random"
+            ],
+            "nullToNull": [
+                "no",
+                "yes"
+            ],
+            "formatSpecification": [
+                "zeroB64",
+                "pkcs7B64",
+                "pkcs7Hex"
+            ]
+        },
+        {
+            "algorithmId": "2000",
+            "algorithm": "seed",
+            "keySize": [
+                "128",
+                "256"
+            ],
+            "operationMode": [
+                "ecb",
+                "cbc",
+                "cfb",
+                "ofb"
+            ],
+            "initialVectorType": [
+                "zero",
+                "fixed",
+                "random"
+            ],
+            "nullToNull": [
+                "no",
+                "yes"
+            ],
+            "formatSpecification": [
+                "zeroB64",
+                "pkcs7B64",
+                "pkcs7Hex"
+            ]
+        },
+        {
+            "algorithmId": "3000",
+            "algorithm": "aria",
+            "keySize": [
+                "128",
+                "192",
+                "256"
+            ],
+            "operationMode": [
+                "ecb",
+                "cbc",
+                "cfb",
+                "ofb"
+            ],
+            "initialVectorType": [
+                "zero",
+                "fixed",
+                "random"
+            ],
+            "nullToNull": [
+                "no",
+                "yes"
+            ],
+            "formatSpecification": [
+                "zeroB64",
+                "pkcs7B64",
+                "pkcs7Hex"
+            ]
+        },
+        {
+            "algorithmId": "4000",
+            "algorithm": "tdes",
+            "keySize": [
+                "128",
+                "192"
+            ],
+            "operationMode": [
+                "ecb",
+                "cbc",
+                "cfb",
+                "ofb"
+            ],
+            "initialVectorType": [
+                "zero",
+                "fixed",
+                "random"
+            ],
+            "nullToNull": [
+                "no",
+                "yes"
+            ],
+            "formatSpecification": [
+                "zeroB64",
+                "pkcs7B64",
+                "pkcs7Hex"
+            ]
+        },
+        {
+            "algorithmId": "5000",
+            "algorithm": "des",
+            "keySize": [
+                "64"
+            ],
+            "operationMode": [
+                "ecb",
+                "cbc",
+                "cfb",
+                "ofb"
+            ],
+            "initialVectorType": [
+                "zero",
+                "fixed",
+                "random"
+            ],
+            "nullToNull": [
+                "no",
+                "yes"
+            ],
+            "formatSpecification": [
+                "zeroB64",
+                "pkcs7B64",
+                "pkcs7Hex"
+            ]
+        },
+        {
+            "algorithmId": "6000",
+            "algorithm": "sha",
+            "keySize": [
+                "256",
+                "384",
+                "512"
+            ],
+            "operationMode": [
+                "cbc"
+            ],
+            "initialVectorType": [
+                "zero"
+            ],
+            "nullToNull": [
+                "no",
+                "yes"
+            ],
+            "formatSpecification": [
+                "zeroB64",
+                "pkcs7B64",
+                "pkcs7Hex"
+            ]
+        },
+        {
+            "algorithmId": "7000",
+            "algorithm": "hmac",
+            "keySize": [
+                "160",
+                "256"
+            ],
+            "operationMode": [
+                "cbc"
+            ],
+            "initialVectorType": [
+                "zero"
+            ],
+            "nullToNull": [
+                "yes"
+            ],
+            "formatSpecification": [
+                "pkcs7B64",
+                "pkcs7Hex"
+            ]
+        }
+    ]
+}
